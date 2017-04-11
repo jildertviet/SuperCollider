@@ -16,7 +16,7 @@ void ofApp::setup(){
     }
     
     webcam.setDeviceID(1);
-    webcam.setDesiredFrameRate(60);
+    webcam.setDesiredFrameRate(25);
     webcam.initGrabber(WIDTH, HEIGHT);
     
 //    videoInverted.allocate(camWidth, camHeight, OF_PIXELS_RGB);
@@ -74,9 +74,9 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-    frame.draw(0,0);
-    flux.draw(0,240);
-    convertToBinary(frame,100).draw(0,240*2);
+//    frame.draw(0,0);
+//    flux.draw(0,240);
+//    convertToBinary(frame,100).draw(0,240*2);
     gui.draw();
     
     string f = ofToString(fluxInt);
