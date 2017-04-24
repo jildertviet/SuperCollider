@@ -4,25 +4,9 @@
 #define HEIGHT  240
 //--------------------------------------------------------------
 void ofApp::setup(){
-    //we can now get back a list of devices.
-    vector<ofVideoDevice> devices = webcam.listDevices();
     
-    for(int i = 0; i < devices.size(); i++){
-        if(devices[i].bAvailable){
-            ofLogNotice() << devices[i].id << ": " << devices[i].deviceName;
-        }else{
-            ofLogNotice() << devices[i].id << ": " << devices[i].deviceName << " - unavailable ";
-        }
-    }
     
-    webcam.setDeviceID(1);
-    webcam.setDesiredFrameRate(25);
-    webcam.initGrabber(WIDTH, HEIGHT);
-    
-//    videoInverted.allocate(camWidth, camHeight, OF_PIXELS_RGB);
-//    videoTexture.allocate(videoInverted);
-    
-    ofSetFrameRate(25);
+    ofSetFrameRate(30);
     
     sender.setup("localhost", 6060);
     
@@ -31,17 +15,42 @@ void ofApp::setup(){
     gui.add(brightnessThreshold.setup("brightnessThreshold", 100, 0, 255));
     gui.add(fluxThreshold.setup("fluxThreshold", 10, 0, 255));
     gui.add(maxAmp.setup("maxAmp", 0.8, 0, 1));
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ofSetLogLevel(OF_LOG_VERBOSE);
+    ofSetLogLevel("ofThread", OF_LOG_ERROR);
+    ofSetVerticalSync(false);
+    ofEnableAlphaBlending();
+    
+    omxCameraSettings.width = 1280;
+    omxCameraSettings.height = 720;
+    omxCameraSettings.framerate = 30;
+    omxCameraSettings.isUsingTexture = true;
+    
+    videoGrabber.setup(omxCameraSettings);
+    
+    fbo.allocate(omxCameraSettings.width, omxCameraSettings.height);
+    fbo.begin();
+    ofClear(0, 0, 0, 0);
+    fbo.end();
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
     ofBackground(100, 100, 100);
-    webcam.update();
+        
     
-    
-    
-    if(webcam.isFrameNew()){
-        frameColor.setFromPixels(webcam.getPixels());
+    if(videoGrabber.isFrameNew()){
+        frameColor.setFromPixels(videoGrabber.getPixels());
         frame.setFromColorImage(frameColor);
         
         // Flux

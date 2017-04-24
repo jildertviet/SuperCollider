@@ -6,6 +6,11 @@
 #include "StateMachine.hpp"
 #include "ofxGui.h"
 
+#include "ofAppEGLWindow.h"
+#include "TerminalListener.h"
+#include "ofxRPiCameraVideoGrabber.h"
+#include "ImageFilterCollection.h"
+
 class ofApp : public ofBaseApp{
 
 	public:
@@ -15,7 +20,6 @@ class ofApp : public ofBaseApp{
 
 		void keyPressed(int key);
 
-    ofVideoGrabber webcam;
     ofxCvGrayscaleImage frame;
     
     ofxCvGrayscaleImage flux;
@@ -42,4 +46,18 @@ class ofApp : public ofBaseApp{
     
     int fluxInt;
     int brightnessInt;
+    
+    
+    
+    
+    
+    
+    
+    
+    TerminalListener consoleListener;
+    ofxRPiCameraVideoGrabber videoGrabber;
+    
+    ofFbo fbo;
+    
+    OMXCameraSettings omxCameraSettings;
 };
