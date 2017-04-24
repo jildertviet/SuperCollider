@@ -9,6 +9,290 @@
 		<string>46</string>
 		<key>objects</key>
 		<dict>
+			<key>50728E80A5175A408C0A9245</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>TextureEngine.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxRPiCameraVideoGrabber/src/TextureEngine.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>D2F67CCBAD75A88D90F56BD2</key>
+			<dict>
+				<key>fileRef</key>
+				<string>AB826B5B2A3AC3D0BE1814D7</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>AB826B5B2A3AC3D0BE1814D7</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>TextureEngine.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxRPiCameraVideoGrabber/src/TextureEngine.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>1AE7E10532F05FDFF3FD2CF9</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>TerminalListener.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxRPiCameraVideoGrabber/src/TerminalListener.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>9F87E98879DADA29E6B7C8ED</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>OMXCameraUtils.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxRPiCameraVideoGrabber/src/OMXCameraUtils.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>7C337F9F697E5B3B1D04F89C</key>
+			<dict>
+				<key>fileRef</key>
+				<string>2D832278DF455978CA8B85FE</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>2D832278DF455978CA8B85FE</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>OMXCameraUtils.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxRPiCameraVideoGrabber/src/OMXCameraUtils.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>D418078CBD7A474411314B1D</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>OMXCameraSettings.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxRPiCameraVideoGrabber/src/OMXCameraSettings.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>0B29000E2F600AAE98D25A67</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>OMX_Maps.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxRPiCameraVideoGrabber/src/OMX_Maps.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>A4EADB7BF4DE0DD13492A42E</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxRPiCameraVideoGrabber.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxRPiCameraVideoGrabber/src/ofxRPiCameraVideoGrabber.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>9F5D7E76D619E0F36A9D60FC</key>
+			<dict>
+				<key>fileRef</key>
+				<string>B0F374B365CBB258CF1E2D99</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>B0F374B365CBB258CF1E2D99</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ofxRPiCameraVideoGrabber.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxRPiCameraVideoGrabber/src/ofxRPiCameraVideoGrabber.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>1BA66B26E588541667323B88</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>NonTextureEngine.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxRPiCameraVideoGrabber/src/NonTextureEngine.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>B015D56F0FE2019108D8D2BE</key>
+			<dict>
+				<key>fileRef</key>
+				<string>B65499979D87783FBBC687FD</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>B65499979D87783FBBC687FD</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>NonTextureEngine.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxRPiCameraVideoGrabber/src/NonTextureEngine.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>27FB2CBEF92AF71D742698C8</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>ImageFilterCollection.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxRPiCameraVideoGrabber/src/ImageFilterCollection.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>0FB31141FC7ADD9F8738B497</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.c.h</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>BaseEngine.h</string>
+				<key>path</key>
+				<string>../../../addons/ofxRPiCameraVideoGrabber/src/BaseEngine.h</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
+			<key>719925F3923F150E23B0BDBF</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>CD32E65453EF2024F05AA520</string>
+					<string>0FB31141FC7ADD9F8738B497</string>
+					<string>27FB2CBEF92AF71D742698C8</string>
+					<string>B65499979D87783FBBC687FD</string>
+					<string>1BA66B26E588541667323B88</string>
+					<string>B0F374B365CBB258CF1E2D99</string>
+					<string>A4EADB7BF4DE0DD13492A42E</string>
+					<string>0B29000E2F600AAE98D25A67</string>
+					<string>D418078CBD7A474411314B1D</string>
+					<string>2D832278DF455978CA8B85FE</string>
+					<string>9F87E98879DADA29E6B7C8ED</string>
+					<string>1AE7E10532F05FDFF3FD2CF9</string>
+					<string>AB826B5B2A3AC3D0BE1814D7</string>
+					<string>50728E80A5175A408C0A9245</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>src</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>AAF002A7E70BB88B710F70F4</key>
+			<dict>
+				<key>children</key>
+				<array>
+					<string>719925F3923F150E23B0BDBF</string>
+				</array>
+				<key>isa</key>
+				<string>PBXGroup</string>
+				<key>name</key>
+				<string>ofxRPiCameraVideoGrabber</string>
+				<key>sourceTree</key>
+				<string>&lt;group&gt;</string>
+			</dict>
+			<key>CEF7AEB7294103BB0A287159</key>
+			<dict>
+				<key>fileRef</key>
+				<string>CD32E65453EF2024F05AA520</string>
+				<key>isa</key>
+				<string>PBXBuildFile</string>
+			</dict>
+			<key>CD32E65453EF2024F05AA520</key>
+			<dict>
+				<key>explicitFileType</key>
+				<string>sourcecode.cpp.cpp</string>
+				<key>fileEncoding</key>
+				<string>30</string>
+				<key>isa</key>
+				<string>PBXFileReference</string>
+				<key>name</key>
+				<string>BaseEngine.cpp</string>
+				<key>path</key>
+				<string>../../../addons/ofxRPiCameraVideoGrabber/src/BaseEngine.cpp</string>
+				<key>sourceTree</key>
+				<string>SOURCE_ROOT</string>
+			</dict>
 			<key>C6937888E126BADC8777423B</key>
 			<dict>
 				<key>explicitFileType</key>
@@ -4344,6 +4628,7 @@
 					<string>480A780D8D0308AE4A368801</string>
 					<string>A0B90D3B0ADB9C1716816714</string>
 					<string>E6053AB7FEC63D5F83825B88</string>
+					<string>AAF002A7E70BB88B710F70F4</string>
 				</array>
 				<key>isa</key>
 				<string>PBXGroup</string>
@@ -4543,6 +4828,7 @@
 						<string>../../../addons/ofxOsc/libs/oscpack/src/ip/win32</string>
 						<string>../../../addons/ofxOsc/libs/oscpack/src/osc</string>
 						<string>../../../addons/ofxOsc/src</string>
+						<string>../../../addons/ofxRPiCameraVideoGrabber/src</string>
 					</array>
 					<key>CONFIGURATION_BUILD_DIR</key>
 					<string>$(SRCROOT)/bin/</string>
@@ -4646,6 +4932,7 @@
 						<string>../../../addons/ofxOsc/libs/oscpack/src/ip/win32</string>
 						<string>../../../addons/ofxOsc/libs/oscpack/src/osc</string>
 						<string>../../../addons/ofxOsc/src</string>
+						<string>../../../addons/ofxRPiCameraVideoGrabber/src</string>
 					</array>
 					<key>CONFIGURATION_BUILD_DIR</key>
 					<string>$(SRCROOT)/bin/</string>
@@ -4730,6 +5017,11 @@
 					<string>C4782ECC372420ACE0615B74</string>
 					<string>0546D1A38E13BD319CC9755B</string>
 					<string>879A251454401BC0B6E4F238</string>
+					<string>CEF7AEB7294103BB0A287159</string>
+					<string>B015D56F0FE2019108D8D2BE</string>
+					<string>9F5D7E76D619E0F36A9D60FC</string>
+					<string>7C337F9F697E5B3B1D04F89C</string>
+					<string>D2F67CCBAD75A88D90F56BD2</string>
 				</array>
 				<key>isa</key>
 				<string>PBXSourcesBuildPhase</string>
@@ -4859,6 +5151,7 @@
 						<string>../../../addons/ofxOsc/libs/oscpack/src/ip/win32</string>
 						<string>../../../addons/ofxOsc/libs/oscpack/src/osc</string>
 						<string>../../../addons/ofxOsc/src</string>
+						<string>../../../addons/ofxRPiCameraVideoGrabber/src</string>
 					</array>
 					<key>COMBINE_HIDPI_IMAGES</key>
 					<string>YES</string>
@@ -4952,6 +5245,7 @@
 						<string>../../../addons/ofxOsc/libs/oscpack/src/ip/win32</string>
 						<string>../../../addons/ofxOsc/libs/oscpack/src/osc</string>
 						<string>../../../addons/ofxOsc/src</string>
+						<string>../../../addons/ofxRPiCameraVideoGrabber/src</string>
 					</array>
 					<key>COMBINE_HIDPI_IMAGES</key>
 					<string>YES</string>
