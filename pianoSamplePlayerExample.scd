@@ -1,3 +1,9 @@
+/*
+SC doesn't have a default piano instrument, so make your own. I downloaded the Ivy Audio sample pack, and loaded a selection of the samples below.
+You can drag + drop into SC IDE and get ["path", "path"]
+
+*/
+
 (
 p = [
 "/Users/jildertviet/Downloads/Ivy Audio - Piano in 162 sfz/Piano in 162 Samples/Close/PedalOffClose/20-PedalOffForte2Close.flac",
@@ -61,7 +67,6 @@ b = Array.fill(p.size, {|i| Buffer.read(s, p[i])});
 
 ( // Play something (Pbind would be better)
 {
-	0.01.wait;
 	inf.do{
 		|i|
 		{
@@ -69,7 +74,7 @@ b = Array.fill(p.size, {|i| Buffer.read(s, p[i])});
 			env = EnvGen.kr(Env.linen(0.0002, [0.1, 2, 0.1].wrapAt(i * 3), 1, curve: 4), doneAction: 2);
 			buf = PlayBuf.ar(2, (b[[2, 22, 24, 36, 47, 22, 24].wrapAt(i)]).bufnum, doneAction: 2, rate: 1) * 0.5;
 			buf = buf * env;
-		}.play;
+		}.play; // {}.play instead of Synth() and SynthDef (lazy)
 		([1, 1, [2, 1, 1, 1].wrapAt(i)].wrapAt(i) * 0.5).wait;
 	};
 }.fork;
